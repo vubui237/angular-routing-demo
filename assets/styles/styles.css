@@ -1,1 +1,49 @@
+body, html {
+    font-family: sans-serif, Arial, Helvetica;
+    height: 100%;
+    width: 100%;
+    background: url('../5c03da8971db5da45a4d7be7a1db2c59.jpg') no-repeat center center;
+    background-size: cover;
+}
 
+header {
+    height: 7vh;
+    width: 100%;
+    background: black;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+header nav div {
+    width: 5%;
+    padding: 0 50px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px 0 0;
+    width: 95%;
+    font-size: 26px;
+}
+
+header nav ul li {
+    cursor: pointer;
+    margin-right: 10%;
+    border-bottom: 3px solid transparent;
+}
+
+header nav ul li:hover {
+    border-bottom: 3px solid white;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
