@@ -1,0 +1,10 @@
+<section>
+    <div>
+        <h1>Characters</h1>
+    </div>
+    <div class="card-container">
+        <div ng-repeat="character in characters" ui-sref="character({charId: character.id})" class="charCard">
+            {{character.name}}
+        </div>
+    </div>
+</section>
